@@ -14,6 +14,8 @@ set :keep_releases, 5
 set :nginx, true
 set :deploy_to, '/www/app_name.com'
 set :wsgi_file, 'app_name.wsgi'
+set :wsgi_path, 'APP_NAME_PATH'
+set :wsgi_file_name, 'wsgi.py'
 set :npm_tasks, {:grunt => 'do_something', :gulp => 'something_else'}
 set :stage, :production
 set :django_settings, 'production'
